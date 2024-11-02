@@ -131,8 +131,23 @@ section {
   margin-right: 60px;
 }
 
+.navOne{
+  margin-left: 200px;
+  width: 550px;
+  margin-bottom: 40px;
+}
+
+
+
 body {
-  line-height: 1;
+  line-height: 2;
+}
+
+
+
+.logo{
+  height: 20px;
+  width: 100px;
 }
 
 ol,
