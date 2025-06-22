@@ -1706,7 +1706,7 @@ body.is-preload #header .content .inner {
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 1.5rem 2.5rem;
   position: relative;
-  width: 40rem;
+  width: 60rem;
   max-width: 100%;
   background-color: rgba(27, 31, 34, 0.85);
   border-radius: 4px;
@@ -1880,7 +1880,7 @@ ul.icons,
 }
 
 .card {
-  width: 300px;
+  width: 90%;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -1927,4 +1927,14 @@ ul.icons,
   background: rgb(6, 139, 216);
   padding: 10px;
   color: #f8f9fa;
+}
+.center-text {
+  background: linear-gradient(90deg, #ff0505, #ffff00cb, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem; 
 }
