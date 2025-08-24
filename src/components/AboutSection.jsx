@@ -27,7 +27,9 @@ export default function EnhancedAboutSection() {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-          I'm a Full Stack Engineer and creative developer passionate about building immersive and impactful digital experiences. My expertise spans frontend development with React and Vue 3, backend development with Node.js,Django and GO, and integrating complex systems like ERPs, CRMs, HRMS, payroll systems, and SSO solutions. I thrive at the intersection of design and functionality.Whether it’s crafting intuitive user interfaces, architecting scalable backends, or building progressive web apps (PWAs) that scale seamlessly.
+          I'm a Fullstack Engineer and creative developer who loves turning ideas into immersive digital experiences. I work across the full stack, from crafting smooth, intuitive interfaces with React and Vue 3 to building scalable backends with Node.js, Django, and Go. I also enjoy connecting complex systems like ERPs, CRMs, HRMS, payroll platforms, and SSO solutions to make software truly seamless.
+
+I thrive where design meets functionality, whether it’s building user friendly interfaces, architecting robust backends, or creating progressive web apps (PWAs) that perform beautifully across devices. I’m all about making technology both powerful and enjoyable to use.
           </p>
           <p>
           Beyond building products, I also teach the MERN stack, mentor students, and contribute to shaping bootcamp curricula, helping the next generation of developers grow.
