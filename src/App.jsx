@@ -108,11 +108,25 @@ function ContactSection() {
             <span className="contact-icon">📱</span>
             <span>+254 707849963</span>
           </div>
-          <div className="social-links">
-            <a href="#" className="social-link">GitHub</a>
-            <a href="#" className="social-link">LinkedIn</a>
-            <a href="#" className="social-link">Twitter</a>
-          </div>
+          <div className="social-links flex gap-4">
+  <a
+    href="https://github.com/CodebyMaganga"
+    className="social-link text-white hover:text-gray-300"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    GitHub
+  </a>
+  <a
+    href="https://www.linkedin.com/in/codebymaganga"
+    className="social-link text-white hover:text-gray-300"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+</div>
+
         </div>
       </div>
     </section>
