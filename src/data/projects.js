@@ -37,6 +37,19 @@ FinOnboard simplifies complex financial onboarding into a seamless, transparent,
 ],
 
   tech: ["React", "Django", "Postgresql", "AWS", "Docker"],
+      tags: [
+  "Fintech",
+  "Onboarding Platform",
+  "Dynamic Forms",
+  "Role-Based Access",
+  "Real-Time Communication",
+  "Form Version Control",
+  "Submission Tracking",
+  "Admin Dashboard",
+  "Client Portal",
+  "Secure Authentication",
+],
+link: "https://onboarding-frontend-eight.vercel.app"
   },
   
   {
@@ -70,18 +83,10 @@ FinOnboard simplifies complex financial onboarding into a seamless, transparent,
 ],
 
     tags: [
-  "Fintech",
-  "Onboarding Platform",
-  "Dynamic Forms",
-  "Role-Based Access",
-  "Real-Time Communication",
-  "Form Version Control",
-  "Submission Tracking",
-  "Admin Dashboard",
-  "Client Portal",
-  "Secure Authentication",
-],
-
+      "MERN", "JWT Auth", "Role Based", "Real-time Search",
+      "Image Uploads", "Stripe", "M-Pesa", "Bookings",
+      "Admin Dashboard", "Client Dashboard", "AWS", "Docker"
+    ],
     link: "https://roomikey.com",
   },
   {
