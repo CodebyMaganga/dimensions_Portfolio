@@ -1,6 +1,45 @@
 // data/projects.js
 export const PROJECTS = [
   {
+    id: "finOnboard",
+    title: "FinOnboard – Fintech Onboarding Platform",
+    role: "Fullstack Developer",
+    color: "#f472b6",
+    blurb: "Onboarding platform for fintech client.",
+    description:`
+      FinOnboard is a comprehensive fintech onboarding platform designed to streamline processes such as loan applications, KYC verification, account opening, and audit form management.
+
+The platform empowers administrators to create and manage dynamic forms with customizable fields, version tracking (so no data or previous versions are lost), and real-time monitoring of client submissions.
+
+Key features include:
+
+Role-based authentication for secure and personalized access.
+
+Real-time communication between admins and clients.
+
+Dynamic, version-controlled forms that evolve without losing historical data.
+
+Submission tracking to monitor client activity and maintain audit trails.
+
+Interactive admin dashboard for managing users, forms, and insights efficiently.
+
+FinOnboard simplifies complex financial onboarding into a seamless, transparent, and secure digital experience for both clients and institutions.`,
+
+    highlights: [
+  "Comprehensive fintech onboarding for loan applications, KYC, account openings, and audits",
+  "Dynamic form builder with customizable fields",
+  "Version control for forms to preserve and track changes",
+  "Real-time submission tracking for client activities",
+  "Role-based authentication for secure access control",
+  "Real-time communication between admins and clients",
+  "Intuitive admin dashboard for managing forms, users, and insights",
+  "Secure data retention and easy retrieval of historical information"
+],
+
+  tech: ["React", "Django", "Postgresql", "AWS", "Docker"],
+  },
+  
+  {
     id: "roomikey",
     title: "Roomikey – Property Platform",
     role: "Lead Fullstack Developer",
@@ -16,12 +55,33 @@ export const PROJECTS = [
       "Facilitated hundreds of property rentals & bookings",
       "95%+ user satisfaction and 2s page load speed",
     ],
-    tech: ["React", "Node.js", "MongoDB", "AWS", "Docker"],
+    tech: [
+  "React",
+  "Django",
+  "PostgreSQL",
+  "AWS",
+  "Docker",
+  "Redis",
+  "Celery",
+  "REST API",
+  "Tailwind CSS",
+  "WebSockets",
+  "JWT Authentication"
+],
+
     tags: [
-      "MERN", "JWT Auth", "Role Based", "Real-time Search",
-      "Image Uploads", "Stripe", "M-Pesa", "Bookings",
-      "Admin Dashboard", "Client Dashboard", "AWS", "Docker"
-    ],
+  "Fintech",
+  "Onboarding Platform",
+  "Dynamic Forms",
+  "Role-Based Access",
+  "Real-Time Communication",
+  "Form Version Control",
+  "Submission Tracking",
+  "Admin Dashboard",
+  "Client Portal",
+  "Secure Authentication",
+],
+
     link: "https://roomikey.com",
   },
   {
