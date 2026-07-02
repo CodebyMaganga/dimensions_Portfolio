@@ -1,5 +1,66 @@
 // data/projects.js
 export const PROJECTS = [
+
+  {
+  id: "shambai",
+  title: "ShambAI – AI Agricultural Credit Intelligence Platform",
+  role: "Lead Fullstack & AI Developer",
+  color: "#22c55e",
+  blurb: "Among the top projects in the Kenya AI Challenge, using AI and alternative data to assess creditworthiness for smallholder farmers.",
+
+  description: `
+    ShambAI is an AI-powered agricultural credit assessment platform designed to help financial institutions, SACCOs, and lenders evaluate farmers who lack traditional credit histories.
+
+    The platform combines USSD-based onboarding, explainable AI scoring, graph-based risk analysis, field verification workflows, and alternative data sources to generate fair and transparent lending decisions.
+
+    Farmers can register using a simple mobile phone through USSD, making the solution accessible even in rural and low-connectivity regions. Risk assessments are generated using farm characteristics, financial behavior, production history, and verification data, while explainable AI provides clear reasons behind every lending recommendation.
+
+    ShambAI was recognized among the top projects in the Kenya AI Challenge for its innovative approach to improving financial inclusion for smallholder farmers.
+  `,
+
+  highlights: [
+    "Recognized among the top projects in the Kenya AI Challenge",
+    "AI-powered credit assessment for underserved farmers",
+    "USSD onboarding accessible from any mobile phone",
+    "Explainable AI lending recommendations",
+    "Neo4j graph-based risk intelligence engine",
+    "Field officer verification and farmer validation workflows",
+    "Alternative data scoring for users without formal credit histories",
+    "Designed to improve financial inclusion across rural communities"
+  ],
+
+  tech: [
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Neo4j",
+    "USSD",
+    "Express",
+    "AI Scoring Engine",
+    "Graph Analytics",
+    "REST APIs"
+  ],
+
+  tags: [
+    "Artificial Intelligence",
+    "Fintech",
+    "Agriculture",
+    "AgriTech",
+    "Financial Inclusion",
+    "USSD",
+    "Neo4j",
+    "Graph Database",
+    "Risk Assessment",
+    "Alternative Credit Scoring",
+    "Explainable AI",
+    "Farmer Verification",
+    "Credit Intelligence",
+    "Machine Learning"
+  ],
+
+  link: "https://shamb-ai-fe.vercel.app"
+},
+
   {
     id: "finOnboard",
     title: "FinOnboard – Fintech Onboarding Platform",

@@ -5,6 +5,27 @@ export default function ProjectPanel({ project, onClose }) {
   const panelRef = useRef(null)
   const [activeImage, setActiveImage] = useState(0)
 
+
+  const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.08,
+    },
+  },
+};
+
+const item = {
+  hidden: {
+    opacity: 0,
+    y: 25,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+  },
+};
+
   // Close when clicking outside the panel
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -60,9 +81,23 @@ export default function ProjectPanel({ project, onClose }) {
         <div className="fixed inset-0 z-50 flex justify-end bg-black/70 backdrop-blur-md">
           <motion.div
             ref={panelRef}
-            initial={{ x: 400, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: 400, opacity: 0 }}
+            initial={{
+              x: 80,
+              opacity: 0,
+              scale: 0.96,
+              rotateY: -8,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              scale: 1,
+              rotateY: 0,
+            }}
+            exit={{
+                x: 80,
+                opacity: 0,
+                scale: 0.98,
+              }}
             transition={{ type: "spring", stiffness: 120, damping: 18 }}
             className="w-[92vw] sm:w-[600px] h-[calc(100vh-2rem)] mt-4 mx-3 mb-3
               rounded-2xl bg-gradient-to-b from-gray-900 to-black border border-white/10 backdrop-blur-xl p-6 
@@ -71,10 +106,11 @@ export default function ProjectPanel({ project, onClose }) {
           >
             {/* Header with title and close button */}
             <div className="flex items-start justify-between mb-6">
-              <div className='flex flex-col'>
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-fuchsia-500 bg-clip-text text-transparent">
+              <div className='flex flex-col '>
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-fuchsia-500 bg-clip-text text-transparent ">
                 {project.title}
               </h2>
+              <div className="h-1 rounded-full bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-400 mb-6" />
               <h4 className='text-sm text-white/80 mt-1'>{project.role}</h4>
               </div>
               <button 
@@ -92,7 +128,7 @@ export default function ProjectPanel({ project, onClose }) {
             {/* Image gallery */}
             {project.images && project.images.length > 0 && (
               <div className="relative mb-6 rounded-xl overflow-hidden">
-                <div className="aspect-video bg-gray-800 flex items-center justify-center">
+                <div className="aspect-video bg-gray-800 flex items-center justify-center ">
                   <img 
                     src={project.images[activeImage]} 
                     alt={`${project.title} screenshot ${activeImage + 1}`}
